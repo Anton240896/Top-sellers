@@ -136,12 +136,15 @@ body {
     font-weight: 600;
     font-size: 14px;
     line-height: 1.21;
-    color: #ffffff;
+    color: #fcf1e0;
     cursor: pointer;
+    width: 160px;
     height: 50px;
+    transition: background-color 550ms color.25s cubic-bezier(.4, 0, .2, 1);
+
 
     padding: 12px 28px;
-    background-color: orange;
+    background-color: #fd9222;
     border-radius: 100px;
     border: none;
 
@@ -151,8 +154,9 @@ body {
 .top-sellers-btn:hover,
 .top-sellers-btn:focus {
     background-color: #fcf1e0;
-    transition: background-color var(--transition), color var(--transition);
-    color: orange;
+    color: #fd9222;
+    transition: background-color 550ms color.25s cubic-bezier(.4, 0, .2, 1);
+    ;
 }
 
 
